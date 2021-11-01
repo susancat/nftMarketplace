@@ -12,7 +12,6 @@
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.3.2",
-    "autoprefixer": "^10.3.7",
     "axios": "^0.24.0",
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
@@ -25,8 +24,10 @@
     "web3modal": "^1.9.4"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.1",
-    "postcss": "^8.3.11"
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
   }
 }

@@ -49,7 +49,7 @@ contract NFTMarket is ReentrancyGuard{
         return listingPrice;
     }
 
-    //NEW: creating a market item (by contract) with its id and price, and putting it for sale
+    //NEW: creating a market item (by NFT contract, not market contract) with its id and price, and putting it for sale
     function createMarketItem(
         address nftContract, 
         uint256 tokenId, 
