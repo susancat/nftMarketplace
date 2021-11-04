@@ -6,6 +6,8 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol" ;
 //easy to write nnumber counter
 //ERC721URIStorage is also an inherit from ERC721
+import "hardhat/console.sol";
+
 contract NFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     //could have several counters,and here we only use one counter
